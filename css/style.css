@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 全体
+********************************************************* */
+.container {
+  max-width: 960px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
+/* ヘッダー
+********************************************************* */
+header {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  width: 50%;
+}
+
+nav {
+  width: 50%;
+}
+
+ul {
+  line-height: 48px;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+li {
+  padding: 0 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-brands {
+  font-size: 18px;
+}
+
+
+
+
+/* メイン
+********************************************************* */
+
+/* メインビジュアル */
+.main-visual {
+  background-image: url(/image/aig-ai230817A003-xl_TP_V4.jpg);
+  width: 100vw;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
